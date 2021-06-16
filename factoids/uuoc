@@ -1,0 +1,1 @@
+Useless Use Of Cat (cat foo | grep bar). See https://mywiki.wooledge.org/BashFAQ/119 and http://www.iki.fi/era/unix/award.html#cat

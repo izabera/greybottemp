@@ -1,0 +1,1 @@
+Upload to http://ix.io from your terminal: <command> | curl -n -F 'f:1=<-' http://ix.io # or add a function to your .bashrc: ix() { curl -n -F 'f:1=<-' http://ix.io; } # examples: ix < file; command | ix

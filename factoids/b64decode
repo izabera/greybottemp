@@ -1,0 +1,1 @@
+; b64decode() { local LC_COLLATE=C; tr A-Za-z0-9+/= 0-9a-zA-Z@_\\n | tr -dc 0-9a-zA-Z@_\\n | while read g ; do printf %b $( for ((i=0, l=${#g}; i<l ; i+=4)) do c=(); h=${g:i:4} ; ((c=64#$h, j=${#h}, j>3&&( c[2]=c&255 ), j>2&&( c[1]=c>>8&255 ), c>>=16)) ; printf '\\x%02x' ${c[@]} ; done ) ; done ;} ; b64decode <<<IyEvYmluL2Jhc2gK

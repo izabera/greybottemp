@@ -1,0 +1,1 @@
+A shell option introduced by Bash 5.0 that protects against the recursive expansion of associative array subscripts during arithmetic evaluation. See also !$subscript.

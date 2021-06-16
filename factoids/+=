@@ -1,0 +1,1 @@
++= can be used to append to a string or an array or even do addition for an integer-var. eg, arr+=(foo bar); string+=" and more"; i+=5

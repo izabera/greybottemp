@@ -1,0 +1,1 @@
+To see where a variable is coming from in a login shell: PS4='+ $BASH_SOURCE:$FUNCNAME:$LINENO:' bash -ilxc : 2>&1 | grep myvar; ## or in a non-login shell, use -ixc instead of -ilxc ## This does NOT work as root. It does NOT cover variables that come from PAM, etc.

@@ -1,0 +1,1 @@
+Use an associative array to perform membership tests (including "have I already seen X"). declare -A seen; seen[$file]=1; [[ ${seen[$file]} ]] && continue

@@ -1,0 +1,1 @@
+https://mywiki.wooledge.org/DontReadLinesWithFor ... "for" is for iterating arguments/arrays, not strings. Never do: for x in $(cat file), or for x in $var; instead, use a glob (*.txt), an array ("${hosts[@]}") or a while-read loop. See also https://mywiki.wooledge.org/BashPitfalls#pf1

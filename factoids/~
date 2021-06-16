@@ -1,0 +1,1 @@
+http://bash-hackers.org/wiki/doku.php/syntax/expansion/tilde $HOME may be easier to use inside ""s as ~ won't expand when double quoted.

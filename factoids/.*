@@ -1,0 +1,1 @@
+GLOBIGNORE=.; echo .* # enables the dotglob shopt and has .* expand to all names beginning with a dot except for . and .. (see https://www.gnu.org/software/bash/manual/html_node/Filename-Expansion.html)

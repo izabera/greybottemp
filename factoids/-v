@@ -1,0 +1,1 @@
+bash -v (or set -v) turns on a mode where bash writes each command as it READS the command. Not as it executes the command. This is typically useless. You want -x instead.

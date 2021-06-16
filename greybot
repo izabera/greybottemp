@@ -1,0 +1,36 @@
+#!/bin/bash -x
+[[ $nested ]] || nested=yes exec ncat --ssl -e "$0" irc.freenode.net 6697
+
+exec {log}>log 2>&"$log"
+
+stdbuf -oL tail -f fifo &
+tailf=$!
+trap 'kill "$tailf"' exit
+
+log () { echo "$EPOCHREALTIME $1" >&"$log"; }
+raw () { printf %s\\n "$*"; log ">$*"; }
+msg () { raw "privmsg $1 :${*:2}"; }
+
+nick=greybottemp
+pass=ThusSpotterPlacateMockerRequest
+{
+    raw NICK "$nick"
+    raw USER "$nick" 0 0 :"$nick"
+    sleep 5
+    msg nickserv identify "$pass"
+} &
+
+declare -n m=BASH_REMATCH
+privmsg='^:([^!]*)[^ ]* privmsg ([^ ]*) :(.*)'
+shopt -s nocasematch
+handler () { log "=handler ${sender@A} ${target@A} ${text@A}"; }
+
+while read -r && REPLY=${REPLY%$'\r'} && log "<$REPLY"; do
+    [[ $REPLY = PING* ]] && { raw "${REPLY/I/O}"; continue; }
+    [[ $REPLY =~ $privmsg ]] || continue
+    sender=${m[1]}
+    target=${m[2]}
+    text=${m[3]}
+    [[ loadme -nt handler ]] && source loadme && declare -f handler >handler
+    handler
+done

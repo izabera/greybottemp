@@ -1,0 +1,1 @@
+sudo echo > file -- bash operations such as redirections & glob expansions are performed by the USER's bash, not by sudo. Consider: echo | sudo tee [-a] file, or sudo bash -c 'echo > file'

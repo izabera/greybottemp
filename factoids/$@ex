@@ -1,0 +1,1 @@
+# set -- "a b" "c"; f(){ printf "[%s]" "$@"; printf " -- "; } ; printf 'Unquoted: '; f $*; f $@; printf 'Quoted: '; f "$*"; f "$@"

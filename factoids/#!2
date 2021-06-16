@@ -1,0 +1,1 @@
+A script must start with a #! and the full path to its interpreter. This is usually called the hashbang or shebang line. This tells the kernel what program to run your script with. Unless you are publishing your script, just use the direct path to bash on your host, eg #!/bin/bash but if you want to make a demonstration script to publish, see !#! instead.

@@ -1,0 +1,1 @@
+Variables marked readonly (declare -r) are intended to be used with a restricted shell, to stop you from trivially changing PATH to escape the restrictions (etc.). They were never intended to be widely used in scripts. If you try, you will see odd results (-r at a global scope is passed down to local scopes).

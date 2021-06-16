@@ -1,0 +1,1 @@
+To read filenames into an array from find in bash >=4.4: mapfile -td '' arr < <(find dir -print0). In older versions of bash: arr=(); while read -rd ''; do arr+=("$REPLY"); done < <(find dir -print0). Note that -print0 is a non-standard option, albeit one that is commonly supported.

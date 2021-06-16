@@ -1,0 +1,1 @@
+readlink can print resolved symlinks or canonical file names. Not POSIX. Related: test -L

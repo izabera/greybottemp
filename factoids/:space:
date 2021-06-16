@@ -1,0 +1,1 @@
+In a glob, BRE or ERE, [[:space:]] is any single whitespace character (like \s in PCRE). In tr, '[:space:]' is the set of all whitespace characters.

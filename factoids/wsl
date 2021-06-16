@@ -1,0 +1,1 @@
+Windows Subsystem for Linux (WSL) is a misnomer; it's really "Linux Subsystem for Windows", and lets you run Linux ELF binaries on Windows. Sometimes called "Bash on Ubuntu on Windows".

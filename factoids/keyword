@@ -1,0 +1,1 @@
+Bash keywords (if case [[ time etc.) are part of the syntax. In some ways they act like builtin commands, but they may have completely different parsing rules. E.g. inside [[ ]] there is no word splitting or filename expansion, and > is not a redirection.

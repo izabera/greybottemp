@@ -1,0 +1,1 @@
+# for sh in bash dash ksh; do "$sh" -c 'echo -n $0:; { echo foo >/dev/null &>/dev/fd/3 echo bar; } 3>&1'; done # example of bash handling &> differently than other shells

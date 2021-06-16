@@ -1,0 +1,1 @@
+Given that f has a value of "foo.bar.baz", ${f#*.} will expand to "bar.baz" and ${f##*.} to "baz", whereas ${f%.*} will expand to "foo.bar" and ${f%%.*} to "foo". See also: http://mywiki.wooledge.org/BashFAQ/073

@@ -1,0 +1,1 @@
+wc -l prints a filename if you pass it a filename as an argument. If you just want the number of lines, redirect the file as stdin instead. lines=$(wc -l < "$file")

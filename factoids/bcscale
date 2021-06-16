@@ -1,0 +1,1 @@
+# echo "scale=1; e(1.4*l(500))" | bc -l ; echo "scale=5; e(1.4*l(500))" | bc -l ## Never use a small scale= in bc. If you want to round the value, let printf do it instead.

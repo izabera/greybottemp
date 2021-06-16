@@ -1,0 +1,1 @@
+Shell variables (exported or not) are copied whenever the a subshell is created, including momentarily before executing another program. Each process has its own variables, so a subshell cannot affect the variables of its parent, or vice versa. Variables may also be temporarily replaced within a function using "local" or by !prefixassignment

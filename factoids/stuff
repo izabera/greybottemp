@@ -1,0 +1,1 @@
+To stuff a string into the bash interactive line-being-edited: stuff() { local pre="${READLINE_LINE:0:$READLINE_POINT}"; local suf="${READLINE_LINE:$READLINE_POINT}"; local stuff="my string"; READLINE_LINE="${pre}$stuff$suf"; ((READLINE_POINT += ${#stuff})); }; bind -x '"\e^": stuff'

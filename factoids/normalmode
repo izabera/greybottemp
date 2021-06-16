@@ -1,0 +1,1 @@
+You mean command mode. Vi has "command mode" and "text input mode". Wherever you saw "normal mode" (possibly vim's documentation), it's just confusing.

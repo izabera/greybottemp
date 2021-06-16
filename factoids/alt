@@ -1,0 +1,1 @@
+The Alt key is a modifier; it generally replaces the Meta key, which originally used to set the 8th (high) bit of the signal character to 1. Terminal applications generally do not understand this, and do not deal with it consistently. In some cases, "ESC foo" (may be written \efoo) codes for the behavior of Alt foo. Use with caution.

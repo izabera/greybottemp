@@ -1,0 +1,1 @@
+ajoin2() { local delim="$1" i; shift; r=; for i; do r+="$delim$i"; done; r=${r#"$delim"}; } # Join arguments into a flat string, with a multi-character delimiter.

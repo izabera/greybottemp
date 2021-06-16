@@ -1,0 +1,1 @@
+${#arr} prints the length of the first member of the array. use ${#arr[@]} to get the length of the array

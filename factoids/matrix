@@ -1,0 +1,1 @@
+Bash only has 1-dimensional arrays (two kinds), but you can simulate 2-dimensional matrices with tricks. ${array[i*100+j]} (where 100 can be any suitably large constant) with indexed arrays, or ${array["$i,$j"]} with associative arrays.

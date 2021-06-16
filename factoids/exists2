@@ -1,0 +1,1 @@
+Version of exists that does not require setting/resetting of nullglob, but requires quoted pattern with inner escapes: exists() (shopt -s nullglob; IFS=; set -- $1; [[ -e $1 ]]); touch 'hell* there.txt'; if exists 'hell\* *.txt'; then echo yes; fi

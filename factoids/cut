@@ -1,0 +1,1 @@
+Long pipelines involving grep|cut|... can usually be replaced by a single awk command. If you're operating on a string variable, consider using Parameter Expansions instead: http://mywiki.wooledge.org/BashFAQ/100

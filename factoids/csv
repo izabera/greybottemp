@@ -1,0 +1,1 @@
+Comma Separated Values: a format that stores data as records composed of fields, usually comma-delimited. Documented by RFC4180, though implementations vary. Utilities such as sed, grep and cut are not suitable for parsing it. Instead, use csvline (from http://to.lhunath.com/bashlib), csvtool, csvkit, csv (Python), Text::CSV (Perl) etc.

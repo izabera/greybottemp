@@ -1,0 +1,1 @@
+Don't pass user-supplied data in a context where it could be interpreted as code. BAD: ssh host "rm $file"; GOOD: ssh host "$(printf 'rm %q' "$file")"; see http://mywiki.wooledge.org/BashProgramming/05

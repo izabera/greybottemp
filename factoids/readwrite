@@ -1,0 +1,1 @@
+In general, you can't read from and write to the same file at the same time: "sort file > file" won't work. If your tool cannot edit files in place, use a temporary file. See https://mywiki.wooledge.org/BashPitfalls#pf13

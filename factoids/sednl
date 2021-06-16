@@ -1,0 +1,1 @@
+''sed -n l'' will reveal hidden characters, such as carriage returns (\r) in a stream

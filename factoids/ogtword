@@ -1,0 +1,1 @@
+# seq=( $( gawk -v RS=[a-zA-Z0-9] -v ORS=' ' -v OFS= 'r += length( RT ) { R = R RT ; if ( r > 5 ) { if ( ! ( ++i % 10 ) ) exit ; else { print R; r = R = "" } } }' /dev/urandom ) ) item=${seq[SRANDOM %${#seq[@]}]} ; printf $item

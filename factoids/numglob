@@ -1,0 +1,1 @@
+brace expansion + nullglob + the trick in !str2glob = a simple way to expand numeric ranges: shopt -s nullglob; echo @(file{12..3456})

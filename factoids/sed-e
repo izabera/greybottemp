@@ -1,0 +1,1 @@
+sed -E allows for the ERE regex dialect to be used. Though not specified by POSIX.1-2008, it was accepted as an enhancement in March 2020. See also, !ere

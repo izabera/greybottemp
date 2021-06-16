@@ -1,0 +1,1 @@
+In bash >=4.2, printf -v today '%(%Y-%m-%d)T' -1 will assign the current date (in ISO-8601 format). Alternatively, use the date(1) utility: today=$(date +%Y-%m-%d).

@@ -1,0 +1,1 @@
+Secure SHell (#openssh, http://mywiki.wooledge.org/CategorySsh). To run rm "$localVar" remotely, use: printf 'rm %q\n' "$localVar" | ssh user@host bash

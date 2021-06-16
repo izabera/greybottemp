@@ -1,0 +1,1 @@
+"foo()" is posix, and is what we strongly recommend. "function foo" is allowed by ksh and bash; in bash it means the same as "foo()" but in ksh it is different. "function foo()" is bash only, not allowed in ksh or posix.

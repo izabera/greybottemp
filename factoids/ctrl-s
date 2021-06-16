@@ -1,0 +1,1 @@
+Ctrl-S (XOFF) often triggers XON/XOFF (software) flow control. Use Ctrl-Q (XON) to resume flow. See <flowcontrol>.

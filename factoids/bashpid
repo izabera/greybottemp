@@ -1,0 +1,1 @@
+$BASHPID is the pid of the current subshell. for a posix alternative, pid=$(exec sh -c 'echo "$PPID"')

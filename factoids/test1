@@ -1,0 +1,1 @@
+The test command with one argument checks the string length of that argument. [ "$foo" ] is true if "$foo" is non-empty. [ false ] is true because "false" is a non-empty string.

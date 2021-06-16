@@ -1,0 +1,44 @@
+handler () {
+    [[ ${pf[0]}  ]] || { i=0; declare -gA pf ; while read -r; do  keyspf+=("$i")  pf[$((i++))]=$REPLY; done < ~/greybot/pf; }
+    [[ ${faq[0]} ]] || { i=0; declare -gA faq; while read -r; do keysfaq+=("$i") faq[$((i++))]=$REPLY; done < ~/greybot/faq; }
+
+    local regex='!([^ >]*) *([^>]*) *( *> *(.+))?' ans rcpt
+    [[ $text =~ $regex ]] || return
+
+    declare -A replies=(
+        [pf]="https://mywiki.wooledge.org/BashPitfalls#pf%d -- Don't do this! -- %s"
+        [faq]="https://mywiki.wooledge.org/BashFAQ/%03d -- %s"
+    )
+
+    case ${m[1]} in 
+        faq|pf)
+            declare -n arr=${m[1],,} keys=keys${m[1],,}
+            if [[ -v arr[${m[2]}] ]]; then
+                printf -v ans "${replies[${m[1],,}]}" "${m[2]}" "${arr[${m[2]}]}"
+            else
+                for key in "${keys[@]}"; do
+                    [[ ${arr[$key]} = *"${m[2]}"* ]] || continue
+                    printf -v ans "${replies[${m[1],,}]}" "$key" "${arr[$key]}"
+                done;
+            fi
+        ;;
+
+        */*) return ;;
+
+        *) read -r ans < ~/greybot/factoids/"${m[1],,}"
+    esac
+
+    [[ $ans ]] || return
+
+    if [[ ${m[4]} ]]; then
+        rcpt=${m[4]}
+    elif [[ $target != "$nick" ]]; then
+            rcpt=$sender
+    fi
+
+    if [[ $target = "$nick" ]]; then
+        msg "$sender" "${rcpt+$rcpt: }$ans"
+    else
+        msg "$target" "${rcpt+$rcpt: }$ans"
+    fi
+}

@@ -1,0 +1,1 @@
+To create JSON strings with variable assignments: jq -nc --arg bar "$bar" '{foo:$bar}' ;# compare with awk -v awkvar="$bashvar"

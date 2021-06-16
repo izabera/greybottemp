@@ -1,0 +1,1 @@
+input (stdin) is one of the three file descriptors (see !fd) guaranteed to all programs. Always has FD number 0. Commands may read input from it. See also: !stdout !stderr !redirtut

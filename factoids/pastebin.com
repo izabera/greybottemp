@@ -1,0 +1,1 @@
+pastebin.com is ad-supported, and mangles data by converting characters. Even the raw version isn't the same as the original. Malware found on pastebin.com has resulted in it being outright blocked for many users. See !paste for alternatives.

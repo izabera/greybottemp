@@ -1,0 +1,1 @@
++ can mean addition, or "one or more" in an ERE. The BRE equivalent of + is \{1,\}

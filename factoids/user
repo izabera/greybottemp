@@ -1,0 +1,1 @@
+$USER is not reliable; it's the traditional BSD variant of $LOGNAME. Use $LOGNAME instead, or ${LOGNAME:-$USER} if you want to support both flavors of historical relics.

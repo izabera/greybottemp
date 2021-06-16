@@ -1,0 +1,1 @@
+# alias -- -a=$'a=( ${#a[*]} "${a[@]}" ) i= ; declare -n arg=a\[i] ; while (( ++i <= a )) ; do printf "$i/%s " "$arg" ; done ; ' ; eval "a=( i am arg ) -a a=( another two ) -a"

@@ -1,0 +1,1 @@
+paste.ubuntu.com is one of the worst paste sites you can possibly choose, because you must register to view the raw text.

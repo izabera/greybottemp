@@ -1,0 +1,1 @@
+Oracle poisoning: the fallacy popularized by Oracle (among others) that a service should be configured by an interactive shell's dot files. Symptoms include su - oracle -c 'start my database' in service scripts. No known cure.

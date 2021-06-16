@@ -1,0 +1,1 @@
+The blue box has two post-it notes: "1" and "2". When you do ">>red", the red box is opened, and the note that says "1" is moved to the red box. When you do "2>&1", this means "take the note that says 2, and put it on the box that has the note that says 1". Now both "1" and "2" are on the red box.

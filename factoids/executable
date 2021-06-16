@@ -1,0 +1,1 @@
+In order to run a script as a regular command, it needs (1) to have the executable bit set and (2) either be in your $PATH or be invoked with a path. Use `chmod` for the first. See http://mywiki.wooledge.org/BashGuide/CommandsAndArguments#Scripts for more.

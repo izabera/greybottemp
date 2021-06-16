@@ -1,0 +1,1 @@
+"declare -n" tries to create a name reference to a variable. It's severely flawed: the variable is resolved by looking for a matching name using dynamic scope. See https://mywiki.wooledge.org/BashProgramming#Functions and FAQ 48.

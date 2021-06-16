@@ -1,0 +1,1 @@
+cmd99=( echo Hello World ) ; cmd98=( ssh -l "$remoteuser98" "$remote_host98" $( printf '%q ' "${cmd99[@]}" ) ) ; cmd97=( ssh -l "$remoteuser97" "$remote_host97" $( printf '%q ' "${cmd98[@]}" ) ) ; … repeat for as many hops as you need … ; "${cmd1[@]}"

@@ -1,0 +1,1 @@
+Totally not a number puzzle. Typing "sudo su" is like typing "cat file | cat". If you want a non-login shell as root, just use "sudo -s". If you want a login shell, "sudo -i".

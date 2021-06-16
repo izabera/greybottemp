@@ -1,0 +1,1 @@
+When ls's output is not a terminal, the -1 option is automatically enabled. If you see someone write ls -1 | ... or x=$(ls -1) or similar, you have your work cut out for you.

@@ -1,0 +1,1 @@
+# touch '`date`'; find . -type f -name '*date*' -exec sh -c 'echo {}' \; # Code injection bug. Use -exec sh -c 'foo "$1"' _ {} \; instead.

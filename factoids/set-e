@@ -1,0 +1,1 @@
+"set -e" is an inheritance of the old bourne shell, and doesn't really work well with modern shell features. You'll really have less buggy scripts if you do the error handling manually instead of relying on the unreliable "set -e"; see http://mywiki.wooledge.org/BashFAQ/105

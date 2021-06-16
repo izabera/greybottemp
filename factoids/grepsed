@@ -1,0 +1,1 @@
+grep foobar | sed 's/meow/moo/' -----> sed -n '/foobar/s/meow/moo/p'

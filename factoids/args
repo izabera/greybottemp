@@ -1,0 +1,1 @@
+args() { printf "%d args:" "$#"; printf " <%s>" "$@"; echo; } # Or you can make it a /bin/sh script. See also !arguments

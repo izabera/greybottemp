@@ -1,0 +1,1 @@
+You can add commas to GNU ls' filesize output (without using -h). Does not work with POSIX or C locales: export BLOCK_SIZE="'1"; ls -l

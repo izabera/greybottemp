@@ -1,0 +1,1 @@
+Always give a meaningful name to your throwaway variables in for-loops: 'for i in {0..255}; do ...', 'for c in {A..Z}; do ...', 'for f in *.txt; do ...', 'for a in "$@"; do ...'

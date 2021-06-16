@@ -1,0 +1,1 @@
+To sort(1) on the second field: sort -k 2,2; This means "the sort key is field 2 only". sort -k 2 means "the sort key runs from the start of field 2 to the end of the line".

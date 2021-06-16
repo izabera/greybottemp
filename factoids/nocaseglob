@@ -1,0 +1,1 @@
+''shopt -s nocaseglob'' causes filename expansion to be case-insensitive. E.g. *.jpg will match filenames ending in .JPG in addition to filenames ending in .jpg

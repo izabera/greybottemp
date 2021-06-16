@@ -1,0 +1,1 @@
+printf -v varname (bash 3.1) is like C's sprintf(). It lets you put formatted output in a variable without needing a command substitution.

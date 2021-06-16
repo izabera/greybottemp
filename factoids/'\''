@@ -1,0 +1,1 @@
+EVERYTHING inside single quotes (') is taken literally by Bash. All characters may appear except for ' itself. To embed one, it must be taken out and escaped on its own using \' or "'". Another option is to use the $'...' quoting instead.

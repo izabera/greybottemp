@@ -1,0 +1,1 @@
+The space required to hold a file is normally its size rounded up to a whole allocation block, but it may be trimmed to the exact size in filesystems that support tail block sharing, and may be smaller for sparse files or larger if indirection blocks are needed (if it is very fragmented)

@@ -1,0 +1,1 @@
+"local -" (bash 4.4) makes all changes to shell options using "set" local to the function; they are restored when the function returns.

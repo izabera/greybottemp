@@ -1,0 +1,1 @@
+find . -type f -name '*.wav' -exec sh -c 'for f; do lame -h "$f" "${f%.wav}.mp3"; done' x {} +

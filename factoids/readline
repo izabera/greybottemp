@@ -1,0 +1,1 @@
+readline is a library to handle reading input from a terminal, e.g. for shortcuts like \c-w to wipe a word. it's developed alongside bash, configured using $INPUTRC or the bind builtin, and used in many other projects like gdb or cpython. it has both emacs and vi modes.

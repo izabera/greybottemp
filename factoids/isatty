@@ -1,0 +1,1 @@
+You can see whether a file descriptor is open on a terminal with test -t. Many programs perform a check like this and change their behavior: ls, GNU grep, git, systemctl, etc.

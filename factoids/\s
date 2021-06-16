@@ -1,0 +1,1 @@
+\s and \d are PCRE features. They will not work in ERE (which is what awk, egrep, and bash's =~ all use). The ERE equivalent of \s is [[:space:]], and of \d is [[:digit:]].

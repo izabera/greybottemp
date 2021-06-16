@@ -1,0 +1,1 @@
+.. refers to the parent directory. Relative pathnames like ../foo/bar cannot be converted into absolute pathnames in the general case -- see http://doc.cat-v.org/plan_9/4th_edition/papers/lexnames to understand why. Also see http://mywiki.wooledge.org/BashFAQ/028

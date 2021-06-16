@@ -1,0 +1,1 @@
+local/declare/typeset in a function makes a variable local to the function. All other variables are resolved using dynamic scope (look in the calling function's local vars, then the caller's caller's vars, etc. up to the global scope). Subshells also create an implicit scope.

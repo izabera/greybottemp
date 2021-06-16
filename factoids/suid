@@ -1,0 +1,1 @@
+The SUID bit doesn't work on interpreted scripts in Linux. use sudo instead. http://www.faqs.org/faqs/unix-faq/faq/part4/section-7.html for more information

@@ -1,0 +1,1 @@
+You can truncate (change the length of) an existing file with truncate(1) if your OS has it, or with dd of="$file" bs="$size" seek=1 count=0

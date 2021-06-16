@@ -1,0 +1,1 @@
+Where LC_CTYPE is set to a UTF-8 enabled locale, ${#var} will count its codepoints. To count graphemes with column from >=util-linux-2.30: var='piñón'; IFS= read -r length < <(printf '%s\n' _ "$var" | column -tR1); echo "var has ${#var} codepoints and ${#length} graphemes"

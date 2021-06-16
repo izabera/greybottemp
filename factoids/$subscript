@@ -1,0 +1,1 @@
+In an arithmetic context, never specify the array subscript as an expansion in the manner of array[$key]. Instead, write array[key] for indexed arrays and array[\$key] for associative arrays. Otherwise, repeated expansions can occur, potentially leading to code injection. See also !assoc_expand_once and !pf 45.

@@ -1,0 +1,1 @@
+sh -c 'commands' argv0 a1 a2 a3 ## The argv0 placeholder can be any string. Don't expand variables like sh -c "foo $bar"; that's a code injection. Use sh -c 'foo "$1"' x "$bar"; see https://mywiki.wooledge.org/CodeInjection

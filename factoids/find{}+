@@ -1,0 +1,1 @@
+find -exec some_command {} + will break down all of the pathnames traversed by find into sets, with each set being passed to some_command as multiple arguments upon each invocation. The size of an individual set is kept within the constraints imposed by ARG_MAX.

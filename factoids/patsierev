@@ -1,0 +1,1 @@
+# awk '{ n=split($0,a,""); while(n) printf("%c", a[n--]); printf("\n") }' <<<"Dx retaw dellitsid cihtapoemoh ekil eruP"

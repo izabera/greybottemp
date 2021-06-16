@@ -1,0 +1,1 @@
+dump all the variables in a way that can be eval'ed safely: eval "printf '%s=%q\n' $(compgen -v | sed 's/.*/& "$&"/' | tr '\n' ' ')"

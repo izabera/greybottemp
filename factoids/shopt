@@ -1,0 +1,1 @@
+http://wiki.bash-hackers.org/internals/shell_options -- nullglob and extglob are most common. dotglob and nocase{match,glob} can be handy too.

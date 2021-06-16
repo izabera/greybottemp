@@ -1,0 +1,1 @@
+time is a bash keyword. See ''help time''. There may also be a time command installed on the system, documented in ''man time'' -- see faq 86 to bypass bash's time keyword, or faq 32 to redirect the output of time to a file.

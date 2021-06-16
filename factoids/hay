@@ -1,0 +1,1 @@
+# declare -A hay; for i in a b c d e f g; do hay[$i]=1; done; for needle in a q; do if [[ ${hay[$needle]} ]]; then echo "found $needle"; else echo "did not find $needle"; fi; done

@@ -1,0 +1,1 @@
+local [option] name[=value]. Same as using declare in a function. Define a variable as local to restrict to a function and the function's children. Good practice to prevent littering your global scope with temp vars. Less impact in an isolated script.

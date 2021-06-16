@@ -1,0 +1,1 @@
+Pathnames beginning with // may have special meaning (it's system-dependent). POSIX requires the leading // be preserved. Thus, "cd //" sets PWD to // rather than /. See <http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_271> and <https://unix.stackexchange.com/questions/256497/256569#256569>

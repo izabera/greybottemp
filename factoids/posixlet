@@ -1,0 +1,1 @@
+case $(command -v let) in let) ;; *) let() { while ${2+\:} return "$((! ( ${1:-0} )))"; do shift; done; }; esac

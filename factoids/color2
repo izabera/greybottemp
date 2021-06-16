@@ -1,0 +1,1 @@
+Text attributes such as color, bold, underline and blink, are not intrinsic to the text itself. Rather, a terminal has a set of current attributes that are used for all subsequent text, and can be changed by escape sequences (see !color). This is independent of which process writes to the terminal, and which filedescriptor is used; all interleaved text is a single stream.

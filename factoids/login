@@ -1,0 +1,1 @@
+A login shell reads /etc/profile and one of ~/.bash_profile or ~/.bash_login or ~/.profile. You get a login shell by running bash with the --login (or -l) option, or by running bash with a leading - in argv[0]. The latter is the traditional way login(1) indicates that it wants a login shell.

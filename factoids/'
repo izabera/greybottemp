@@ -1,0 +1,1 @@
+EVERYTHING inside single quotes (') is taken literally by bash. If you want to embed a ' inside '...', write it as the four characters '\'' or use $'...' quoting instead.

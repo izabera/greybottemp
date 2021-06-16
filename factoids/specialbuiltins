@@ -1,0 +1,1 @@
+posix calls these builtins "special": break : . continue eval exec exit export readonly return set shift trap unset

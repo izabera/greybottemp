@@ -1,0 +1,1 @@
+In bash, $(cat file) can be replaced by the equivalent but faster $(< file).

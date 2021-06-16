@@ -1,0 +1,1 @@
+porns=(p1 p2 p3 p4 p5 ...) hosts=(h1 h2 h3); n=${#hosts[@]}; i=0; for p in "${porns[@]}"; do curl "${hosts[(++i)%n]}/$p"; sleep 10; done

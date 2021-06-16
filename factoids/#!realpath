@@ -1,0 +1,1 @@
+The use of « #!/usr/bin/env bash » is preferred for scripts that will be published for humans to read, so that you don't need to include instructions on how to adjust it for the location of the interpreter on the recipient's system. For use on your own system (and for .rpm & .deb embedding) use #! with the full path to bash. See https://gist.github.com/kurahaupo/8130030

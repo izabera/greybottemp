@@ -1,0 +1,1 @@
+sed -i isn't portable; standard sed doesn't have it at all, GNU sed -i has an optional argument, and BSD sed -i has a mandatory argument. See !editing and <https://wooledge.org/mywiki/BashFAQ/021> for advice on modifying files.

@@ -1,0 +1,1 @@
+du reports the count of blocks (optionally scaled to K, M, G or T) required to store all the files that are (or are within directories) given as paths. Each inode is counted only once, which affects hard links, and "du -s a/b a" will first report the space for a/b, and then the space for a excluding a/b.

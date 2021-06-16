@@ -1,0 +1,1 @@
+« read < <( prog ) » is preferable to « prog | read » in almost all circumstances, because the latter implicitly puts « read » into subshell, so whatever it reads is immediately forgotten.

@@ -1,0 +1,1 @@
+The POSIX standard defines what any modern unix should support. Use just POSIX external commands and options to make portable scripts. See http://shellhaters.org

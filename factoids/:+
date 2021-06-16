@@ -1,0 +1,1 @@
+${parameter:+word} Use Alternate Value. If parameter is null or unset, nothing is substituted, otherwise the expansion of word is substituted.

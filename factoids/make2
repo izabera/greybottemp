@@ -1,0 +1,1 @@
+the shell fragments inside a makefile need to have each "$" reduplicated (as "$$") because "$" is also special to make

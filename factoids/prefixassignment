@@ -1,0 +1,1 @@
+A variable assignment before a command name (without an intervening newline or semicolon) places that variable in the environment of that command, with the variable retaining its original value (if any) once the command returns. This works like "local" in a function.

@@ -1,0 +1,1 @@
+If you really need to use Docker, just append | docker run -i alpine:latest cat

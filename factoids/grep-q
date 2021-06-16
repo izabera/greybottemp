@@ -1,0 +1,1 @@
+"grep -q" is typically more efficient than "grep >/dev/null". Most grep implementations will stop reading at the first match. Similarly, "grep -q 'pattern' && echo matched" should be considerably more efficient than such long-winded methods as "count=$(grep 'pattern' | wc -l); (( count > 0 )) && echo matched".

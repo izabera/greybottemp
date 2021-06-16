@@ -1,0 +1,1 @@
+sort(1) is an external command that sorts your input lexicographically or numerically. See https://github.com/lhunath/scripts/blob/master/bashlib/bashlib#L964 for a bash sorter that can optionally take a comparator command.

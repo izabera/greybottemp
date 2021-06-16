@@ -1,0 +1,1 @@
+Evaluating $RANDOM gives a pseudorandom integer from 0 to 32767. Assigning to RANDOM sets a new seed. See http://mywiki.wooledge.org/BashFAQ/026 for examples.

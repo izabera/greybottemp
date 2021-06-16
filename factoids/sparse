@@ -1,0 +1,1 @@
+Bash's indexed (non-associative) arrays can be sparse. This means they can have "holes" (gaps). E.g. a=([0]=zero [5]=five)

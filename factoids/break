@@ -1,0 +1,1 @@
+The break command terminates one or more enclosing for, while or until loops. The continue command jumps to the next loop iteration. An optional numeric argument specifies how many levels of enclosing loops to break or continue.

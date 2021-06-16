@@ -1,0 +1,1 @@
+exec [command] [redirections] # With a command, replace the shell process with the new command; without a command, apply the redirections to the current shell process. http://wiki.bash-hackers.org/commands/builtin/exec http://mywiki.wooledge.org/FileDescriptor

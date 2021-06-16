@@ -1,0 +1,1 @@
+compgen options: -b builtins, -c commands, -d directories (in $PWD), -e environment variables, -f files (in $PWD), -g group names, -s service names (!!), -u user names, -v variables

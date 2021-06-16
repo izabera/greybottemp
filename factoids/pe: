@@ -1,0 +1,1 @@
+When using the default value parameter expansion (${var:-default}), the test checks if var is not set (unset -v var) or empty (var=''). If you omit the colon (${var-default}) it only checks if the var is not set. Same applies for :=, :?, and :+

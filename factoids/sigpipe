@@ -1,0 +1,1 @@
+SIGPIPE (on Linux, signal 13, exit status 128+13 = 141) is a signal sent to a process which tries to write to a pipe that has been closed, usually because the other end has already exited. Generally harmless.

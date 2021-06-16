@@ -1,0 +1,1 @@
+"Double quotes" are optional for the word following 'case', the RHS of simple assignments (e.g. foo=$bar), or inside [[ except for the RHS of =~ or = (e.g. [[ -f $file ]])

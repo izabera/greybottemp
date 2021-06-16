@@ -1,0 +1,1 @@
+It is possible to approximate the behaviour of ${var:=default} parameter expansion for array variables. The following code will assign to var, provided that it is either unset or an existing, empty array: (( ${#var[@]} )) || var=(my default values)

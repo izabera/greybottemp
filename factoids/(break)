@@ -1,0 +1,1 @@
+Using "break", "continue" & "return" inside a subshell cannot influence program flow outside that subshell. At best it will report an error and cause the subshell to exit immediately; at worst it will fail silently and the program flow will continue past it.

@@ -1,0 +1,1 @@
+Read lines from a file/stream into an array: mapfile -t arrayname < file OR mapfile -t arrayname < <(some cmd); # In bash < 4, use a loop; see FAQ 5 or http://wiki.bash-hackers.org/commands/builtin/mapfile

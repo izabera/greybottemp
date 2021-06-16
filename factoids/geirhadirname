@@ -1,0 +1,1 @@
+dirname() { case $1 in (*[!/]*/[!/]*) set -- "${1%/[!/]*}"; while [ "$1" != "$2" ]; do set -- "${1%/}" "$1"; done ;; (/*) set -- / ;; (*) set -- . ;; esac; printf '%s\n' "$1"; }

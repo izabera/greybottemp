@@ -1,0 +1,1 @@
+gdb -batch-silent -p "$PPID" -ex "call bind_variable(\"${1:?}\", \"$2\", 0)"

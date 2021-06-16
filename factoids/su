@@ -1,0 +1,1 @@
+su (switch user) opens a new interactive session with new privileges. Usually to run some commands as root. Don't use this to drop privileges in scripts; try setpriv instead, if you have it. See <http://jdebp.info/FGA/dont-abuse-su-for-dropping-privileges.html>

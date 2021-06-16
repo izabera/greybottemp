@@ -1,0 +1,1 @@
+split(1): POSIX command to break a file into multiple pieces by lines or bytes; or, to split a string into an array of substrings: IFS=: read -ra array <<< "foo:bar:baz" (but see !pf47)

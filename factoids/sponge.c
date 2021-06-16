@@ -1,0 +1,1 @@
+/*#define N pick a number, add #includes, and ADD ERROR HANDLING */ int main(){ char*t=mktemp("/tmp/.spongeXXXXXX");int f=open(t,O_RDWR|O_CREAT|O_EXCL,0);unlink(t);ssize_t n;char b[N];while((n=read(0,b,N))>0)write(f,b,n);lseek(f,0,0);while((n=read(f,b,N))>0)write(1,b,n);}

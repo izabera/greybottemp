@@ -1,0 +1,1 @@
+patterns=(one two ...); for f in *; do for p in "${patterns[@]}"; do [[ -f "$f" ]] && grep -q -- "$p" "$f" || continue 2; done; echo "$f"; done

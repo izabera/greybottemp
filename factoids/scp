@@ -1,0 +1,1 @@
+"The scp protocol is outdated, inflexible and not readily fixed." <https://www.openssh.com/txt/release-8.0> If you have problems with scp, stop using it. Consider sftp or rsync, or ssh u@h 'cat > remotefile' < localfile, or tar cf - dir | ssh u@h 'cd /somewhere && tar xf -'

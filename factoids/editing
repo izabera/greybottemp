@@ -1,0 +1,1 @@
+In-place "editing" of files from a script is a really poorly thought-out idea. See <http://backreference.org/2011/01/29/in-place-editing-of-files/> and <sed-i> and <pf 13> and <faq 21>.

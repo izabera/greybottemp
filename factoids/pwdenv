@@ -1,0 +1,1 @@
+PWD is not an environment variable. The shell will ignore it if it is in the environment, and instead will extract the true value from the kernel, but it may be blocked from doing so by the permissions on parent or other ancestor directories.

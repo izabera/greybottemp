@@ -1,0 +1,1 @@
+in coreutils >= 8.25, ls' default behavior is the same as ls --quoting-style=shell-escape -- which adds quotes around filenames with special characters. rationale: http://lists.gnu.org/archive/html/coreutils/2016-02/msg00000.html

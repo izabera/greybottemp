@@ -1,0 +1,1 @@
+command -v foo >/dev/null || die "please install the foo command" # Using a custom 'die' function from http://mywiki.wooledge.org/BashFAQ/101

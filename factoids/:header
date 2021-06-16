@@ -1,0 +1,1 @@
+The use of ":" or "#" as a script header, instead of a shebang, is a csh hack that tells csh (and almost nothing else) which shell to run after the kernel fails with ENOEXEC. See answer 3.16 of <http://www.faqs.org/faqs/unix-faq/faq/part3/> and Sven's two corrections on his shebang page.

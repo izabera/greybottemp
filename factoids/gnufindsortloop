@@ -1,0 +1,1 @@
+while IFS=/ read -rd '' _ path; do printf '%s\n' "$path"; done < <(find . -type f -printf '%T+/%p\0' | sort -z) # sorts by mtime

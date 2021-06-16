@@ -1,0 +1,1 @@
+The =~ operator of [[ evaluates the left hand string against the right hand ERE (see <ere>, <regex>). After a successful match, the BASH_REMATCH array contains the matched string and subexpressions (if any). Any quoted characters in the ERE become literal. Best to put the whole ERE in a variable: [[ $string =~ $regex ]]

@@ -1,0 +1,1 @@
+# alias alias='alias ' eval='eval ' n='let "(n += 1) >= max" && ' count='printf "$n "; n alias count="printf \$(( (n -= 1) + 1))\ ;" n=; eval count count'; n=0 max=15 eval count echo

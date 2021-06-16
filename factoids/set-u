@@ -1,0 +1,1 @@
+''set -u'' or ''set -o nounset'', makes the use of unset variables sometimes cause a fatal error. If you want to detect typoed variable names, use shellcheck instead. See http://mywiki.wooledge.org/BashFAQ/112

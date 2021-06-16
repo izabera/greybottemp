@@ -1,0 +1,1 @@
+If your sh scripts fail when moved from OpenWRT to a Debian / Ubuntu system, rewrite them to be sh complient. e.g., stop using [[ in them.

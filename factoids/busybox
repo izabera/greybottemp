@@ -1,0 +1,1 @@
+busybox embeds Almquist shell (ash) as its implementation of sh. It is designed to be POSIX-conformant, although it supports a handful of features above and beyond the specification. While sh is supported here, the additional utilities bundled by busybox are not; please go to #busybox for questions regarding those.

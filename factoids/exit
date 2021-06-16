@@ -1,0 +1,1 @@
+Every Unix process returns an exit status code to its parent. This is an unsigned 8-bit integer, 0 to 255 inclusive, with 0 meaning "success" and 1-255 meaning "failure". A script returns the exit status of the last command executed, unless you call "exit" with an argument. Functions "return" an 8-bit status code also.

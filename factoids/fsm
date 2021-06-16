@@ -1,0 +1,1 @@
+Finite State Machine. One of the basic tools for parsing input that has "sections". Set a variable to indicate which section you're in, and use that variable when processing each line. See FAQ 1 also.

@@ -1,0 +1,1 @@
+Just like $(echo foo), <(cat foo) is pointless. Drop the cat and <(), just write foo. See !$(echo and !uuoc

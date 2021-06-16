@@ -1,0 +1,1 @@
+$! expands to the process ID of the most recently executed background (asynchronous) command. In bash 4.4 and later this includes process substitutions.
