@@ -11,8 +11,7 @@ log () { echo "$EPOCHREALTIME $1" >&"$log"; }
 raw () { printf %s\\n "$*"; log ">$*"; }
 msg () { raw "privmsg $1 :${*:2}"; }
 
-nick=greybottemp
-pass=ThusSpotterPlacateMockerRequest
+source nickpass
 {
     raw NICK "$nick"
     raw USER "$nick" 0 0 :"$nick"
