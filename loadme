@@ -2,7 +2,7 @@ handler () {
     [[ ${pf[0]}  ]] || { i=0; declare -gA pf ; while read -r; do  keyspf+=("$i")  pf[$((i++))]=$REPLY; done < ~/greybot/pf; }
     [[ ${faq[0]} ]] || { i=0; declare -gA faq; while read -r; do keysfaq+=("$i") faq[$((i++))]=$REPLY; done < ~/greybot/faq; }
 
-    local regex='!([^ >]*) *([^>]*) *( *> *(.+))?' ans rcpt
+    local regex='^!([^ >]*) *([^>]*) *( *> *(.+))?' ans rcpt
     [[ $text =~ $regex ]] || return
 
     declare -A replies=(
