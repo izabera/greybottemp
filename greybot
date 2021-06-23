@@ -23,6 +23,7 @@ declare -n m=BASH_REMATCH
 privmsg='^:([^!]*)[^ ]* privmsg ([^ ]*) :(.*)'
 shopt -s nocasematch
 handler () { log "=handler ${sender@A} ${target@A} ${text@A}"; }
+source loadme; declare -f handler >handler
 
 while read -r && REPLY=${REPLY%$'\r'} && log "<$REPLY"; do
     [[ $REPLY = PING* ]] && { raw "${REPLY/I/O}"; continue; }
